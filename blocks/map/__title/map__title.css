@@ -1,0 +1,19 @@
+.map__title {
+  color: white;
+  font-weight: 600;
+  font-size: 46px;
+  width: 28%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 auto;
+  border-bottom: 1px rgba(255, 255, 255, 0.479) solid;
+  padding: 0 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .map__title {
+    font-size: 38px;
+    margin: 20px 0 10px;
+    width: 100%;
+  }
+}

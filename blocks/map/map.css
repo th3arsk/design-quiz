@@ -1,0 +1,14 @@
+.map {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 50px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .map {
+    width: 80%;
+    flex-direction: column;
+    margin: 60px auto 0;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,20 @@
+.header__logo {
+  background-image: url('../../../images/header__logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  text-decoration: none;
+  transition: .4s ease-in-out;
+  opacity: .65;
+}
+
+.header__logo:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .header__logo {
+    opacity: .9;
+    width: 200px;
+  }
+}

@@ -1,0 +1,18 @@
+.header__nav {
+  min-height: 70px;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  left: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .header__nav {
+    top: 80px;
+    right: 10px;
+    left: 30px;
+    min-height: 60px;
+  }
+}

@@ -1,0 +1,16 @@
+.header__text {
+  color: white;
+  margin: 26px auto auto;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 600px) {
+  .header__text {
+    font-size: 20px;
+    margin: 60px auto auto 50px;
+    width: 70%;
+    line-height: 34px;
+  }
+}

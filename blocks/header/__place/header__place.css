@@ -1,0 +1,21 @@
+.header__place {
+  color: white;
+  margin: 0;
+  padding: 0;
+  opacity: .7;
+  transition: .4s ease-in;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header__place:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .header__place {
+    opacity: .9;
+    font-size: 12px;
+    width: 160px;
+  }
+}

@@ -1,0 +1,12 @@
+.map__frame {
+  overflow: hidden;
+  height: 500px;
+  width: 68%;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .map__frame {
+    width: 100%;
+  }
+}
